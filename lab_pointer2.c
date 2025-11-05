@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main(){
     int num,sum=0;
     scanf("%d",&num);
@@ -15,6 +14,5 @@ int main(){
         sum += *par;
     }
     printf("Sum = %d",sum);
-    
     return 0;
 }
